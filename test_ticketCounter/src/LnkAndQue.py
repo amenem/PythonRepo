@@ -3,6 +3,7 @@ Created on 11 May 2013
 
 @author: aman.chourasia
 '''
+
 class Lnk:
     def __init__(self,obj):
         self._obj=obj
