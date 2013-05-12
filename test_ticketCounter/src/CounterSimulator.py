@@ -55,7 +55,7 @@ class TicketSimulator:
         for i in range(self._numAgents):
             if self._AgentArr[i].hasServed(self._serviceTime):
                 servedPassenger=self._AgentArr[i].unassign()
-                print('Time : ',curTime,' Passenger:',servedPassenger._passengerId,'has been served by the agent:',i)
+                print('TIME : ',curTime,' Passenger:',servedPassenger._passengerId,'has been served by the agent:',i)
                 self._numServedPassenger+=1
                 
             
