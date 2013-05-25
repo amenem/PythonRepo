@@ -15,6 +15,7 @@ class Array2D:
     def ncol(self):
         return self._ncol
     def getitem2D(self,r,c):
+        #print r
         arr=self._RowArr.getitem(r)
         return arr.getitem(c)
     def setitem2D(self,r,c,val):
