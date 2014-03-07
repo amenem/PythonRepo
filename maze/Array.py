@@ -17,8 +17,7 @@ class Array:
         #print ("idx is ",idx,"self.len() is ",self.len())
         if idx>=0 and idx<self.len():
         #assert idx >=0 and idx<self.len(),"index beyond range"
-            
-            return self._Arr[idx]
+           return self._Arr[idx]
         print "index beyond ranger"
         
     def setitem(self,val,idx):
